@@ -108,9 +108,15 @@ The UDP filter was used to identify User Datagram Protocol traffic. DHCP and DNS
 Port Analysis
 
 Common TCP ports such as 80 (HTTP) and 443 (HTTPS) were not observed in the captured traffic during this practical and therefore were not recorded as observed ports.
+
+
 Observations
 The Wireshark capture showed several types of network traffic generated during normal network communication. ARP traffic was observed when the computer needed to identify a device on the local network. ICMP traffic was observed during the connectivity test, while DHCP traffic showed communication between the client and DHCP server. DNS traffic was observed when a domain name was accessed.
 The practical demonstrated that network traffic contains useful information about protocols, IP addresses, ports, and communication between network devices.
+
+
 Conclusion
+
+
 The practical provided an understanding of how Wireshark can be used to monitor and analyze network traffic. By applying display filters, different protocols could be isolated and examined individually. The exercise also demonstrated the roles of ARP, ICMP, DHCP, DNS, and UDP in everyday network communication.
 Wireshark is therefore a useful tool for network troubleshooting, monitoring, and cybersecurity analysis because it provides detailed information about packets travelling across a network.
